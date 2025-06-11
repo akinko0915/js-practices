@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
-let count = 0
+let count = 0;
 while (count < 20) {
-  count++
-  if (count % 15 === 0) console.log("FizzBuzz")
+  count++;
+  if (count % 15 === 0) console.log("FizzBuzz");
   else if (count % 3 === 0) {
-    console.log("Fizz")
+    console.log("Fizz");
   } else if (count % 5 === 0) {
-    console.log("Buzz")
+    console.log("Buzz");
   } else {
-    console.log(String(count))
+    console.log(String(count));
   }
 }
